@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlossomGifts</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Main Section */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .category {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden;
+        }
+        .category img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .category h3 {
+            font-size: 1.2rem;
+            padding: 10px;
+        }
+        .category p {
+            padding: 0 10px 10px;
+            color: #555;
+        }
+
+        /* Admin Section */
+        .admin-section {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .admin-section h2 {
+            text-align: center;
+            color: #ff7f50;
+        }
+        .admin-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .admin-section li {
+            background-color: #f1f1f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BlossomGifts</h1>
+        <p>Your Online Flower & Gift Store</p>
+    </header>
+    <nav>
+        <a href="#categories">Categories</a>
+        <a href="#admin">Admin Section</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="categories" class="main-content">
+        <div class="category">
+            <img src="https://via.placeholder.com/200x150" alt="Flowers">
+            <h3>Flowers</h3>
+            <p>Beautiful arrangements for any occasion.</p>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/200x150" alt="Gift Baskets">
+            <h3>Gift Baskets</h3>
+            <p>Thoughtful gift baskets for your loved ones.</p>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/200x150" alt="Personalized Gifts">
+            <h3>Personalized Gifts</h3>
+            <p>Make your gift unique and memorable.</p>
+        </div>
+    </section>
+    <section id="admin" class="admin-section">
+        <h2>Admin Section</h2>
+        <ul>
+            <li>Add new products to the catalog.</li>
+            <li>Update prices of existing products.</li>
+            <li>Remove outdated items.</li>
+            <li>View customer order information.</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 BlossomGifts. All rights reserved.</p>
+    </footer>
+</body>
+</html>

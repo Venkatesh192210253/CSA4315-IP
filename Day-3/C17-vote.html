@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoteOnline</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0066cc;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        nav {
+            background-color: #004080;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Section */
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card h3 {
+            color: #0066cc;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+        .card p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+        .card ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .card ul li {
+            background-color: #f1f1f1;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VoteOnline</h1>
+        <p>A Secure and User-Friendly E-Voting Platform</p>
+    </header>
+    <nav>
+        <a href="#admin">Admin Features</a>
+        <a href="#user">User Features</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="admin" class="container">
+        <div class="card">
+            <h3>Admin Features</h3>
+            <ul>
+                <li>Create Election Candidate</li>
+                <li>Allocate Election Data</li>
+                <li>Allocate Users to Wards</li>
+                <li>Create Voter List</li>
+                <li>Import Voter List</li>
+                <li>View & Update Voter List</li>
+                <li>Get Election Results</li>
+            </ul>
+        </div>
+    </section>
+    <section id="user" class="container">
+        <div class="card">
+            <h3>User Features</h3>
+            <ul>
+                <li>Login using Voter ID</li>
+                <li>OTP Login Verification</li>
+                <li>Get OTP for Voting</li>
+                <li>Select Candidate</li>
+                <li>Submit Vote</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 VoteOnline. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Management System</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #388E3C;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #2E7D32;
+        }
+        .main-content {
+            margin: 20px;
+        }
+        .section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+        .section h2 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            color: #333;
+        }
+        footer {
+            background-color: #388E3C;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bus Pass Management System</h1>
+        <p>Efficient and User-Friendly Bus Pass Solution</p>
+    </header>
+    <nav>
+        <a href="#admin">Admin Features</a>
+        <a href="#user">User Features</a>
+        <a href="#conductor">Conductor Features</a>
+        <a href="#about">About</a>
+    </nav>
+    <div class="main-content">
+        <!-- Admin Section -->
+        <section id="admin" class="section">
+            <h2>Admin Features</h2>
+            <ul>
+                <li>Login</li>
+                <li>Manage Student & Route Pass</li>
+                <li>Manage Conductor Login</li>
+                <li>Approve Bus Pass</li>
+                <li>Generate QR Code</li>
+                <li>Create Bus Details</li>
+                <li>Create Route Information:
+                    <ul>
+                        <li>From-to, Time, Route Stopping</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <!-- User Section -->
+        <section id="user" class="section">
+            <h2>User Features</h2>
+            <ul>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Add Money – eWallet</li>
+                <li>Buy Bus eTicket</li>
+                <li>Apply New Bus Pass</li>
+                <li>Renewal Bus Pass</li>
+                <li>Apply Student & Route Pass</li>
+                <li>Get QR Code for Bus Pass</li>
+                <li>Calculate Expected Time to Reach</li>
+            </ul>
+        </section>
+        <!-- Conductor Section -->
+        <section id="conductor" class="section">
+            <h2>Conductor Features</h2>
+            <ul>
+                <li>Login</li>
+                <li>Scan QR Code</li>
+                <li>Verify Bus Pass ID</li>
+                <li>Verify Bus Ticket</li>
+                <li>Update Bus Location</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bus Pass Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
