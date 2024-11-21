@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid Waste Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .role-section {
+            margin-bottom: 30px;
+        }
+        .role-section h3 {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 5px solid #4CAF50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+            padding: 8px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        ul li:hover {
+            background: #f0f0f0;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Solid Waste Management System</h1>
+    </header>
+    <nav>
+        <a href="#admin">Admin</a>
+        <a href="#public">General Public</a>
+        <a href="#driver">Driver</a>
+    </nav>
+    <div class="container">
+        <section id="admin" class="role-section">
+            <h2>Administrator</h2>
+            <h3>Functionalities</h3>
+            <ul>
+                <li>Login</li>
+                <li>Create Garbage Bin</li>
+                <li>Update/Delete Garbage Bin</li>
+                <li>Assign Best Route for Drivers</li>
+                <li>Manage Drivers</li>
+                <li>View Garbage Report</li>
+                <li>View Complaints from Public</li>
+            </ul>
+        </section>
+
+        <section id="public" class="role-section">
+            <h2>General Public</h2>
+            <h3>Functionalities</h3>
+            <ul>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Register Complaint</li>
+                <li>View My Complaints & Status</li>
+            </ul>
+        </section>
+
+        <section id="driver" class="role-section">
+            <h2>Driver</h2>
+            <h3>Functionalities</h3>
+            <ul>
+                <li>Login</li>
+                <li>Check Daily Work Updates</li>
+                <li>Choose Best Route</li>
+                <li>Update Garbage Load</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Solid Waste Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

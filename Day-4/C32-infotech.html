@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Infotech - Laptop Sales and Service</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #34495e;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 10px;
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 8px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        ul li:hover {
+            background: #fff2e6;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        .form-container {
+            margin: 20px 0;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container button {
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ram Infotech</h1>
+        <p>Your one-stop solution for Laptop Sales and Service</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#sales">Laptop Sales</a>
+        <a href="#services">Laptop Services</a>
+        <a href="#customer">Customer Info</a>
+        <a href="#rental">Rental Agreement</a>
+        <a href="#stock">Stock Maintenance</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome to Ram Infotech</h2>
+            <p>Explore our wide range of laptops for sale and enjoy top-notch repair services. Your satisfaction is our priority.</p>
+        </section>
+
+        <section id="sales" class="section">
+            <h2>Laptop Sales</h2>
+            <ul>
+                <li><strong>Model:</strong> Dell XPS 13 - i7, 16GB RAM, 512GB SSD</li>
+                <li><strong>Model:</strong> HP Pavilion 15 - i5, 8GB RAM, 1TB HDD</li>
+                <li><strong>Model:</strong> MacBook Air M2 - 8GB RAM, 256GB SSD</li>
+            </ul>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Laptop Services</h2>
+            <ul>
+                <li><strong>Repair Service:</strong> Screen replacement, battery replacement, software issues</li>
+                <li><strong>Diagnostic Service:</strong> System health check, virus removal, performance optimization</li>
+                <li><strong>Upgrade Service:</strong> RAM and storage upgrades, OS installation</li>
+            </ul>
+        </section>
+
+        <section id="customer" class="section">
+            <h2>Customer Information</h2>
+            <p>We maintain detailed records of your purchases and services to provide better assistance and follow-ups.</p>
+            <ul>
+                <li><strong>Purchase History:</strong> View your laptop purchase details and warranty status.</li>
+                <li><strong>Service History:</strong> Track the status of any ongoing or completed services.</li>
+            </ul>
+        </section>
+
+        <section id="rental" class="section">
+            <h2>Laptop Rental Agreement</h2>
+            <p>Details on renting laptops, including terms and conditions for short-term and long-term rentals.</p>
+            <ul>
+                <li><strong>Rental Period:</strong> Options for daily, weekly, and monthly rentals</li>
+                <li><strong>Pricing:</strong> Affordable rental rates based on model and rental period</li>
+                <li><strong>Agreement:</strong> Terms and conditions document for rental agreements</li>
+            </ul>
+        </section>
+
+        <section id="stock" class="section">
+            <h2>Stock Maintenance</h2>
+            <p>We ensure that all our stock is regularly updated and maintained. Our inventory is synchronized with the latest models available.</p>
+            <ul>
+                <li><strong>Stock Monitoring:</strong> Regular updates on laptop availability and restocking schedules</li>
+                <li><strong>Model Availability:</strong> Details on the availability of popular laptop models</li>
+            </ul>
+        </section>
+
+        <section id="admin" class="section">
+            <h2>Admin Details</h2>
+            <p>Admins can manage the entire system, including laptop sales, services, customer details, and rental agreements.</p>
+            <div class="form-container">
+                <h3>Admin Login</h3>
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out!</p>
+            <div class="form-container">
+                <h3>Contact Form</h3>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <textarea placeholder="Message"></textarea>
+                <button>Send Message</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ram Infotech. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
